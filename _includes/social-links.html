@@ -109,6 +109,17 @@
             <use xlink:href="#icon-github"></use>
         </svg>
     </a>
+    {% endif %} {% if site.gitlab %}
+    <a
+        class="link"
+        data-title="gitlab.com/{{ site.gitlab }}"
+        href="https://gitlab.com/{{ site.gitlab }}"
+        target="_blank"
+    >
+        <svg class="icon icon-gitlab">
+            <use xlink:href="#icon-gitlab"></use>
+        </svg>
+    </a>
     {% endif %} {% if site.stackexchange %}
     <a
         class="link"
